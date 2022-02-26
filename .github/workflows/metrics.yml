@@ -3,6 +3,7 @@ name: Metrics
 on:
   schedule: [{cron: "11 1 */4 * *"}]
   workflow_dispatch:
+  push: {branches: ["main"]}
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
@@ -14,8 +15,9 @@ jobs:
           # Options
           user: AllanChain
           template: classic
-          base: header
+          base: header, metadata
           config_timezone: Asia/Shanghai
+          config_padding: 0, 30
           plugin_habits: yes
           plugin_habits_days: 14
           plugin_habits_facts: yes
