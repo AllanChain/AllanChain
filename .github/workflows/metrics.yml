@@ -1,7 +1,7 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
-  schedule: [{cron: "11 11 * * *"}]
+  schedule: [{cron: "11 1 */4 * *"}]
   workflow_dispatch:
 jobs:
   github-metrics:
@@ -14,7 +14,7 @@ jobs:
           # Options
           user: AllanChain
           template: classic
-          base: header, activity, repositories
+          base: header
           config_timezone: Asia/Shanghai
           plugin_habits: yes
           plugin_habits_days: 14
