@@ -33,16 +33,16 @@
                                     <rect class="day" x="0" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="15" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="30" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
+                                    <rect class="day" x="45" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
                                     <rect class="day" x="60" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="75" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
-                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="90" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="105" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="120" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
-                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="135" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#40c463" rx="2" ry="2"/>
+                                    <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
                                     <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
@@ -90,6 +90,7 @@
                                 JavaScript
                             </div>
                             <small>
+                                <div>303 kB</div>
                                 <div>36.07%</div>
                             </small>
                         </div>
@@ -101,6 +102,7 @@
                                 Vue
                             </div>
                             <small>
+                                <div>152 kB</div>
                                 <div>18.16%</div>
                             </small>
                         </div>
@@ -112,6 +114,7 @@
                                 C
                             </div>
                             <small>
+                                <div>47.8 kB</div>
                                 <div>5.7%</div>
                             </small>
                         </div>
@@ -123,6 +126,7 @@
                                 HTML
                             </div>
                             <small>
+                                <div>13.4 kB</div>
                                 <div>1.61%</div>
                             </small>
                         </div>
@@ -136,6 +140,7 @@
                                 Python
                             </div>
                             <small>
+                                <div>206 kB</div>
                                 <div>24.58%</div>
                             </small>
                         </div>
@@ -147,6 +152,7 @@
                                 TypeScript
                             </div>
                             <small>
+                                <div>55.9 kB</div>
                                 <div>6.67%</div>
                             </small>
                         </div>
@@ -158,6 +164,7 @@
                                 CSS
                             </div>
                             <small>
+                                <div>47.2 kB</div>
                                 <div>5.62%</div>
                             </small>
                         </div>
@@ -169,6 +176,7 @@
                                 Shell
                             </div>
                             <small>
+                                <div>13.3 kB</div>
                                 <div>1.59%</div>
                             </small>
                         </div>
@@ -289,7 +297,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 1 Jun 2022, 12:48:52 (timezone Asia/Shanghai) with lowlighter/metrics@3.23.0</span>
+                <span>Last updated 1 Jun 2022, 12:54:21 (timezone Asia/Shanghai) with lowlighter/metrics@3.23.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
