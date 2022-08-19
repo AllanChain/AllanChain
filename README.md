@@ -8,12 +8,12 @@ I'm a fan of Python and JavaScript/TypeScript, as you can see in the language gr
 <img src="https://github.com/AllanChain/AllanChain/blob/main/.cache/languages.svg">
 
 I'm using VS Code on Linux.
-A total of 18.3 hours of programming time were recorded last week,
-with an average of 2.6 hours per day. 👇
+A total of 17.2 hours of programming time were recorded last week,
+with an average of 2.5 hours per day. 👇
 
 <img src="https://github.com/AllanChain/AllanChain/blob/main/.cache/wakatime.svg">
 
 By the way, this file was generated with
 [lowlighter/metrics@3.27.0](https://github.com/lowlighter/metrics)
-on 18 Aug 2022, 12:15:20 (timezone Asia/Shanghai).
+on 19 Aug 2022, 12:02:50 (timezone Asia/Shanghai).
 Private contributions and achievements are deliberately excluded both in these metrics and in the GitHub contribution graph below.
