@@ -3,7 +3,9 @@
 I joined GitHub on {{ f.date(REGISTRATION_DATE, {dateStyle:"long"}) }}.
 I contributed to {{ REPOSITORIES_CONTRIBUTED_TO }} repositories and made {{ COMMITS }} commits.
 
-I'm a fan of Python and JavaScript/TypeScript, as you can see in the language graph. 👇
+You can contact me via $\left[\mathbf{matrix}\right]$ at `@allanchain:kde.org`.
+
+I'm a fan of Python and JavaScript/TypeScript! 👇
 
 <%- await embed(`languages`, {languages: true, languages_details: "percentage, bytes-size"}) %>
 
