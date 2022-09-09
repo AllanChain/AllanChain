@@ -16,6 +16,6 @@ with an average of 1.7 hours per day. 👇
 <img src="https://github.com/AllanChain/AllanChain/blob/main/.cache/wakatime.svg">
 
 By the way, this file was generated with
-[lowlighter/metrics@3.27.0](https://github.com/lowlighter/metrics)
-on 8 Sept 2022, 12:24:11 (timezone Asia/Shanghai).
+[lowlighter/metrics@3.28.0](https://github.com/lowlighter/metrics)
+on 9 Sept 2022, 12:19:21 (timezone Asia/Shanghai).
 Private contributions and achievements are deliberately excluded both in these metrics and in the GitHub contribution graph below.
