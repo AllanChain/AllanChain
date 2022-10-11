@@ -21,36 +21,6 @@
                 </div>
                 <div class="row">
                     <section class="column chart">
-                        <h3>Projects activity</h3>
-                        <div class="chart-bars horizontal">
-                            <div class="entry">
-                                <span class="name">qmc.jl</span>
-                                <div class="bar" style="width: 27.744%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">35%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">Unknown Project</span>
-                                <div class="bar" style="width: 20.384%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">25%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">nvim</span>
-                                <div class="bar" style="width: 17.32%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">22%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">DeepSolid</span>
-                                <div class="bar" style="width: 9.256%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">12%</span>
-                            </div>
-                            <div class="entry">
-                                <span class="name">blog</span>
-                                <div class="bar" style="width: 5.295999999999999%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">7%</span>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="column chart">
                         <h3>Language activity</h3>
                         <div class="chart-bars horizontal">
                             <div class="entry">
