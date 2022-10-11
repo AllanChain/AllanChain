@@ -13,7 +13,7 @@ I'm using {{ plugins.wakatime.editors[0].name }} on {{ plugins.wakatime.os[0].na
 A total of {{ f(plugins.wakatime.time.total, {fixed: 1}) }} hours of programming time were recorded last week,
 with an average of {{ f(plugins.wakatime.time.daily, {fixed: 1}) }} hours per day. 👇
 
-<%- await embed(`wakatime`, {wakatime: true, wakatime_days: 7, wakatime_limit: 5, wakatime_sections: "projects-graphs, languages-graphs"}) %>
+<%- await embed(`wakatime`, {wakatime: true, wakatime_days: 7, wakatime_limit: 5, wakatime_sections: "languages-graphs"}) %>
 
 By the way, this file was generated with
 [lowlighter/metrics@{{ meta.version }}](https://github.com/lowlighter/metrics)
