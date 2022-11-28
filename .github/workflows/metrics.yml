@@ -24,6 +24,8 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_details: bytes-size, percentage
+          plugin_languages_aliases: Jupyter Notebbok:Jupyter
+          plugin_languages_skipped: syllabus-CE
           plugin_wakatime: yes
           plugin_wakatime_days: 7
           plugin_wakatime_limit: 5
