@@ -1,9 +1,9 @@
 ### 👋 Hello, I'm Allan Chain
 
 I joined GitHub on 16 February 2018.
-I contributed to 50 repositories and made 3355 commits.
+I contributed to 50 repositories and made 3357 commits.
 
-You can contact me via $\left[\mathbf{matrix}\right]$ at `@allanchain:kde.org`.
+You can contact me via $\left[\mathbf{matrix}\right]$ at `@allanchain:kde.org`. You can also find me in the Fediverse at `allanchain@venera.social`.
 
 I'm a fan of Python and JavaScript/TypeScript! 👇
 
@@ -17,5 +17,5 @@ with an average of 1.6 hours per day. 👇
 
 By the way, this file was generated with
 [lowlighter/metrics@3.20.0](https://github.com/lowlighter/metrics)
-on 28 Nov 2022, 22:56:10 (timezone Asia/Shanghai).
+on 28 Nov 2022, 23:00:46 (timezone Asia/Shanghai).
 Private contributions and achievements are deliberately excluded both in these metrics and in the GitHub contribution graph below.
