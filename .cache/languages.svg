@@ -28,7 +28,7 @@
                     <rect mask="url(#languages-bar)" x="370.88332386796054" y="0" width="36.05622922459775" height="8" fill="#555555"/>
                     <rect mask="url(#languages-bar)" x="406.93955309255824" y="0" width="22.923245373560352" height="8" fill="#ff5a03"/>
                     <rect mask="url(#languages-bar)" x="429.8627984661186" y="0" width="15.282414537503335" height="8" fill="#563d7c"/>
-                    <rect mask="url(#languages-bar)" x="445.1452130036219" y="0" width="14.854786996378063" height="8" fill="#DA5B0B"/>
+                    <rect mask="url(#languages-bar)" x="445.1452130036219" y="0" width="14.854786996378063" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -121,9 +121,9 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#DA5B0B" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Jupyter Notebook
+                                Jupyter
                             </div>
                             <small>
                                 <div>19.7 kB</div>
