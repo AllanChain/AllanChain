@@ -1,10 +1,10 @@
 ### 👋 Hello, I'm {{ user.name }}
 
 I joined GitHub on {{ f.date(REGISTRATION_DATE, {dateStyle:"long"}) }}.
-I contributed to {{ REPOSITORIES_CONTRIBUTED_TO }} repositories and made {{ COMMITS }} commits.
+I contributed to {{ REPOSITORIES_CONTRIBUTED_TO }} repositories (excluding my own) and made {{ COMMITS }} commits.
 
-You can contact me via $\left[\mathbf{matrix}\right]$ at `@allanchain:kde.org`.
-You can also find me in the Fediverse at `allanchain@venera.social`.
+You can contact me via $\left[\mathbf{matrix}\right]$ at [`@allanchain:kde.org`](https://matrix.to/#/@allanchain:kde.org).
+You can also find me in the Fediverse at [`allanchain@venera.social`](https://venera.social/profile/allanchain).
 
 I'm a fan of Python and JavaScript/TypeScript! 👇
 
