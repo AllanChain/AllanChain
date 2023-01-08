@@ -3,7 +3,8 @@
 I joined GitHub on {{ f.date(REGISTRATION_DATE, {dateStyle:"long"}) }}.
 I contributed to {{ REPOSITORIES_CONTRIBUTED_TO }} repositories and made {{ COMMITS }} commits.
 
-You can contact me via $\left[\mathbf{matrix}\right]$ at `@allanchain:kde.org`. You can also find me in the Fediverse at `allanchain@venera.social`.
+You can contact me via $\left[\mathbf{matrix}\right]$ at `@allanchain:kde.org`.
+You can also find me in the Fediverse at `allanchain@venera.social`.
 
 I'm a fan of Python and JavaScript/TypeScript! 👇
 
@@ -15,7 +16,6 @@ with an average of {{ f(plugins.wakatime.time.daily, {fixed: 1}) }} hours per da
 
 <%- await embed(`wakatime`, {wakatime: true, wakatime_days: 7, wakatime_limit: 5, wakatime_sections: "editors-graphs, languages-graphs"}) %>
 
-By the way, this file was generated with
-[lowlighter/metrics@{{ meta.version }}](https://github.com/lowlighter/metrics)
-on {{ meta.generated }} (timezone {{ config.timezone.name }}).
-Private contributions and achievements are deliberately excluded both in these metrics and in the GitHub contribution graph below.
+> This file was generated with [lowlighter/metrics@{{ meta.version }}](https://github.com/lowlighter/metrics)
+> on {{ meta.generated }} ({{ config.timezone.name }}).
+> And private contributions and achievements are deliberately excluded.
