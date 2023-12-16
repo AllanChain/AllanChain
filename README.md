@@ -12,10 +12,10 @@ I'm a fan of Python and JavaScript/TypeScript! 👇
 
 I'm using Neovim on Linux.
 A total of 7.1 hours of programming time were recorded last week,
-with an average of 1.2 hours per day. 👇
+with an average of 1.0 hours per day. 👇
 
 <img src="https://github.com/AllanChain/AllanChain/blob/main/.cache/wakatime.svg">
 
 > This file was generated with [lowlighter/metrics@3.20.0](https://github.com/lowlighter/metrics)
-> on 15 Dec 2023, 11:00:49 (Asia/Shanghai).
+> on 16 Dec 2023, 11:00:40 (Asia/Shanghai).
 > And private contributions and achievements are deliberately excluded.
