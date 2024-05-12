@@ -11,11 +11,11 @@ I'm a fan of Python and JavaScript/TypeScript! 👇
 <img src="https://github.com/AllanChain/AllanChain/blob/main/.cache/languages.svg">
 
 I'm using Neovim on Linux.
-A total of 20.8 hours of programming time were recorded last week,
-with an average of 3.5 hours per day. 👇
+A total of 21.1 hours of programming time were recorded last week,
+with an average of 3.0 hours per day. 👇
 
 <img src="https://github.com/AllanChain/AllanChain/blob/main/.cache/wakatime.svg">
 
 > This file was generated with [lowlighter/metrics@3.20.0](https://github.com/lowlighter/metrics)
-> on 11 May 2024, 11:00:44 (Asia/Shanghai).
+> on 12 May 2024, 11:01:00 (Asia/Shanghai).
 > And private contributions and achievements are deliberately excluded.
