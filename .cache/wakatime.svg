@@ -25,13 +25,13 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Neovim</span>
-                                <div class="bar" style="width: 56.2%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
-                                <span class="value">70%</span>
+                                <div class="bar" style="width: 54.16799999999999%; background-color: var(--color-calendar-graph-day-L3-bg)"></div>
+                                <span class="value">68%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Jupyterlab</span>
-                                <div class="bar" style="width: 23.799999999999997%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">30%</span>
+                                <div class="bar" style="width: 25.831999999999997%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">32%</span>
                             </div>
                         </div>
                     </section>
@@ -40,27 +40,27 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 76.152%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
-                                <span class="value">95%</span>
+                                <div class="bar" style="width: 74.112%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <span class="value">93%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Text</span>
-                                <div class="bar" style="width: 2.232%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">3%</span>
+                                <div class="bar" style="width: 3.592%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">4%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Lua</span>
-                                <div class="bar" style="width: 0.8960000000000001%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">1%</span>
+                                <div class="bar" style="width: 1.784%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">2%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Other</span>
-                                <div class="bar" style="width: 0.392%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">0%</span>
+                                <div class="bar" style="width: 0.488%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">1%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">CSV</span>
-                                <div class="bar" style="width: 0.264%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.023999999999999997%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
