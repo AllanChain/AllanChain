@@ -19,6 +19,7 @@ jobs:
           # Options
           user: AllanChain
           base: header, metadata
+          base_indepth: true  # improve contribution accuracy
           config_timezone: Asia/Shanghai
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
