@@ -34,19 +34,19 @@
                         <h3>Language activity</h3>
                         <div class="chart-bars horizontal">
                             <div class="entry">
-                                <span class="name">C++</span>
-                                <div class="bar" style="width: 30.592000000000002%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
-                                <span class="value">38%</span>
+                                <span class="name">YAML</span>
+                                <div class="bar" style="width: 23.336000000000002%; background-color: var(--color-calendar-graph-day-L2-bg)"></div>
+                                <span class="value">29%</span>
                             </div>
                             <div class="entry">
-                                <span class="name">YAML</span>
-                                <div class="bar" style="width: 18.384%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">23%</span>
+                                <span class="name">C++</span>
+                                <div class="bar" style="width: 19.432000000000002%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">24%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">CMake</span>
-                                <div class="bar" style="width: 9.096%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
-                                <span class="value">11%</span>
+                                <div class="bar" style="width: 9.584%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <span class="value">12%</span>
                             </div>
                         </div>
                     </section>
