@@ -1,0 +1,34 @@
+[project]
+name = "github-stats"
+version = "0.1.0"
+description = "Render GitHub stats using API"
+requires-python = ">=3.13"
+dependencies = [
+    "jinja2>=3.1.6",
+    "requests>=2.32.3",
+]
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = [
+    "F", "E", "W", # pyflakes and pycodestyle
+    "I",           # isort
+    "ERA",         # commented code
+    "FURB", "UP",  # modernize code
+    "SIM", "C90",  # simplify code
+]
+
+[tool.stats]
+excluded_repos = [
+  "AllanChain/PKUHoleCommunity"
+]
+included_repos = [
+  "bytedance/netobs",
+  "bytedance/deephall",
+]
+excluded_languages = [
+  "Jupyter Notebook",
+  "HTML"
+]

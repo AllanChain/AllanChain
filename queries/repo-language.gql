@@ -1,0 +1,13 @@
+query ($owner: String!, $name: String!) {
+  repository(owner: $owner, name: $name) {
+    languages(first: 5) {
+      edges {
+        size
+        node {
+          name
+          color
+        }
+      }
+    }
+  }
+}
