@@ -46,7 +46,11 @@ def concat_list_with_and(items: list[str]) -> str:
 
 
 def name_and_time(item) -> str:
-    return f"**{item['name']}** ({item['hours']}h {item['minutes']}m)"
+    if item["hours"] > 0:
+        time = f"{item['hours']}h {item['minutes']}m"
+    else:
+        time = f"{item['minutes']}m"
+    return f"**{item['name']}** ({time})"
 
 
 def language_stats():
