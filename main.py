@@ -34,17 +34,6 @@ def gql(query_name: str, **kwargs):
     return data["data"]
 
 
-def concat_list_with_and(items: list[str]) -> str:
-    if len(items) == 0:
-        return ""
-    elif len(items) == 1:
-        return items[0]
-    elif len(items) == 2:
-        return " and ".join(items)
-    else:
-        return ", ".join(items[:-1]) + ", and " + items[-1]
-
-
 def name_and_time(item) -> str:
     if item["hours"] > 0:
         time = f"{item['hours']}h {item['minutes']}m"
@@ -132,11 +121,11 @@ def contribution_stats():
         contributed_repos=len(contributed_repos),
         commit_count=commit_count,
         wakatime=wakatime_data,
-        waka_editors=concat_list_with_and(
-            [name_and_time(editor) for editor in wakatime_data["editors"][:3]]
+        waka_editors=" and ".join(
+            [name_and_time(editor) for editor in wakatime_data["editors"][:2]]
         ),
-        waka_languages=concat_list_with_and(
-            [name_and_time(language) for language in wakatime_data["languages"][:3]]
+        waka_languages=" and ".join(
+            [name_and_time(language) for language in wakatime_data["languages"][:2]]
         ),
     )
     print("  Writing README.md")
