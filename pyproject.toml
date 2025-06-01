@@ -32,3 +32,8 @@ excluded_languages = [
   "Jupyter Notebook",
   "HTML"
 ]
+excluded_contribution_owners = [
+  "bytedance",
+  "pkuphysu",
+  "TheChenGroup",
+]

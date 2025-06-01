@@ -89,6 +89,7 @@ def contribution_stats():
     user_data = gql("user")["viewer"]
     join_date = datetime.fromisoformat(user_data["createdAt"])
     username = user_data["login"]
+    excluded_contribution_owners = [username, *config["excluded_contribution_owners"]]
 
     contributions = []
     date = datetime.now(tz=join_date.tzinfo)
@@ -105,7 +106,8 @@ def contribution_stats():
         repo["pullRequest"]["repository"]["nameWithOwner"]
         for contribution in contributions
         for repo in contribution["pullRequestContributions"]["nodes"]
-        if not repo["pullRequest"]["repository"]["nameWithOwner"].startswith(username)
+        if repo["pullRequest"]["repository"]["nameWithOwner"].split("/")[0]
+        not in excluded_contribution_owners
     )
 
     print("  Fetching Wakatime stats")
