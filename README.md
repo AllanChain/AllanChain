@@ -8,4 +8,4 @@ As a Python-centric developer, I leverage its ecosystem for both scientific comp
   <img src="https://github.com/AllanChain/AllanChain/blob/main/languages.svg">
 </p>
 
-Over the past 7 days, I've primarily used **Neovim** (4h 30m) and **Jupyterlab** (1h 2m) for working with **Python** (2h 22m) and **YAML** (1h 8m).
+Over the past 7 days, I've primarily used **Neovim** (4h 35m) and **Jupyterlab** (1h 2m) for working with **Python** (2h 22m) and **C++** (1h 23m).
