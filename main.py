@@ -133,14 +133,14 @@ def contribution_stats():
     )
     wakatime_data = response.json()["data"]
 
-    # Filter editors used more than 2 hour, with fallback to at least one editor
+    # Filter editors used more than an hour, with fallback to at least one editor
     filtered_editors = [
-        editor for editor in wakatime_data["editors"] if editor["hours"] > 2
+        editor for editor in wakatime_data["editors"] if editor["hours"]
     ]
     if not filtered_editors:
         filtered_editors = wakatime_data["editors"][:1]
     filtered_languages = [
-        language for language in wakatime_data["languages"] if language["hours"] > 2
+        language for language in wakatime_data["languages"] if language["hours"]
     ]
     if not filtered_languages:
         filtered_languages = wakatime_data["languages"][:1]
