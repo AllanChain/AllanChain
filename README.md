@@ -8,4 +8,4 @@ As a Python-centric developer, I leverage its ecosystem for both scientific comp
   <img src="https://github.com/AllanChain/AllanChain/blob/main/languages.svg">
 </p>
 
-Over the past 7 days, I've primarily used **Neovim** (10h 17m) and **VS Code** (1h 44m) for working with **Python** (5h 59m), **Typst** (2h 20m), and **JavaScript** (1h 18m).
+Over the past 7 days, I've primarily used **Neovim** (10h 39m) for working with **Python** (6h 5m) and **JavaScript** (1h 13m).
