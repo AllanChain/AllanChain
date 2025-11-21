@@ -1,4 +1,4 @@
-I joined GitHub on 16 February 2018, making a total of 5369 commits and contributing to 34 repositories (excluding my own).
+I joined GitHub on 16 February 2018, making a total of 5367 commits and contributing to 34 repositories (excluding my own).
 
 You can find me in the Fediverse at [@allanchain@venera.social](https://venera.social/profile/allanchain), or explore my academic publications via [0000-0001-6980-163X](https://orcid.org/0000-0001-6980-163X). My current research focuses on developing neural network approaches to solve Schrödinger equations in condensed matter systems – where machine learning meets quantum mechanics.
 
@@ -8,4 +8,4 @@ As a Python-centric developer, I leverage its ecosystem for both scientific comp
   <img src="https://github.com/AllanChain/AllanChain/blob/main/languages.svg">
 </p>
 
-Over the past 7 days, I've primarily used **Neovim** (7h 17m) and **Jupyterlab** (1h 14m) for working with **C++** (4h 24m) and **Python** (3h 24m).
+Over the past 7 days, I've primarily used **Neovim** (10h 6m) and **Jupyterlab** (1h 37m) for working with **Python** (6h 41m) and **C++** (4h 24m).
