@@ -8,4 +8,4 @@ As a Python-centric developer, I leverage its ecosystem for both scientific comp
   <img src="https://github.com/AllanChain/AllanChain/blob/main/languages.svg">
 </p>
 
-Over the past 7 days, I've primarily used **Neovim** (19h 18m) and **Jupyterlab** (2h 22m) for working with **Python** (18h 21m) and **TypeScript** (1h 12m).
+Over the past 7 days, I've primarily used **Neovim** (21h 10m) and **Jupyterlab** (2h 22m) for working with **Python** (20h 16m) and **TypeScript** (1h 11m).
