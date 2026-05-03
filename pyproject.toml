@@ -25,8 +25,7 @@ excluded_repos = [
   "AllanChain/PKUHoleCommunity"
 ]
 included_repos = [
-  "bytedance/netobs",
-  "bytedance/deephall",
+  "bytedance/jaqmc",
 ]
 excluded_languages = [
   "Jupyter Notebook",
