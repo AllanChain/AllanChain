@@ -7,17 +7,16 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v5
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v6
+      - uses: astral-sh/setup-uv@v8.1.0
+      - uses: actions/setup-python@v6
         with:
           python-version-file: "pyproject.toml"
-      - run: uv sync --locked --all-extras --dev
       - run: uv run main.py
         env:
           GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
           WAKATIME_TOKEN: ${{ secrets.WAKA_TOKEN }}
-      - uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: Update README
+          commit_message: update README
           commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
