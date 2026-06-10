@@ -8,4 +8,4 @@ As a Python-centric developer, I leverage its ecosystem for both scientific comp
   <img src="https://github.com/AllanChain/AllanChain/blob/main/languages.svg">
 </p>
 
-Over the past 7 days, I've primarily used **Neovim** (52h 13m), **Codex Wakatime** (33h 5m), and **Jupyterlab** (1h 46m) for working with **Markdown** (39h 18m), **Python** (37h 21m), **Other** (5h 49m), **Bash** (2h 48m), and **YAML** (1h 1m).
+Over the past 7 days, I've primarily used **Neovim** (50h 43m), **Codex Wakatime** (22h 20m), and **Jupyterlab** (1h 46m) for working with **Markdown** (37h 27m), **Python** (27h 0m), **Other** (6h 20m), **Bash** (2h 23m), and **YAML** (1h 6m).
