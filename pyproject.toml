@@ -24,9 +24,7 @@ select = [
 excluded_repos = [
   "AllanChain/PKUHoleCommunity"
 ]
-included_repos = [
-  "bytedance/jaqmc",
-]
+included_repos = []
 excluded_languages = [
   "Jupyter Notebook",
   "HTML"
