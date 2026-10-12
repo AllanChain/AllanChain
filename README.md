@@ -8,4 +8,4 @@ As a Python-centric developer, I leverage its ecosystem for both scientific comp
   <img src="https://github.com/AllanChain/AllanChain/blob/main/languages.svg">
 </p>
 
-Over the past 7 days, I've primarily used **Pi** (19h 34m), **Jupyterlab** (8h 46m), **Neovim** (5h 42m), **Cursor** (2h 30m), and **Codex Wakatime** (1h 17m) for working with **Other** (14h 22m), **Python** (12h 54m), **TypeScript** (3h 17m), **TeX** (2h 43m), **Markdown** (1h 19m), and **Image (png)** (1h 5m).
+Over the past 7 days, I've primarily used **Pi** (19h 51m), **Jupyterlab** (7h 22m), **Neovim** (7h 14m), **Cursor** (2h 30m), and **Codex Wakatime** (1h 4m) for working with **Other** (15h 28m), **Python** (11h 32m), **TypeScript** (3h 41m), **TeX** (2h 43m), **Markdown** (1h 20m), and **Image (png)** (1h 7m).
