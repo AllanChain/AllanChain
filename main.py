@@ -42,21 +42,6 @@ def name_and_time(item) -> str:
     return f"**{item['name']}** ({time})"
 
 
-def format_wakatime_items(items):
-    """Format a list of Wakatime items (editors/languages) for display."""
-    if len(items) == 0:
-        return ""
-    elif len(items) == 1:
-        return name_and_time(items[0])
-    elif len(items) == 2:
-        return " and ".join([name_and_time(item) for item in items])
-    else:
-        return (
-            ", ".join([name_and_time(item) for item in items[:-1]])
-            + ", and "
-            + name_and_time(items[-1])
-        )
-
 
 def language_stats():
     print("  Fetching user languages")
@@ -126,33 +111,12 @@ def contribution_stats():
         not in excluded_contribution_owners
     )
 
-    print("  Fetching Wakatime stats")
-    response = requests.get(
-        url="https://wakatime.com/api/v1/users/current/stats",
-        params={"api_key": os.environ.get("WAKATIME_TOKEN")},
-    )
-    wakatime_data = response.json()["data"]
-
-    # Filter editors used more than an hour, with fallback to at least one editor
-    filtered_editors = [
-        editor for editor in wakatime_data["editors"] if editor["hours"]
-    ]
-    if not filtered_editors:
-        filtered_editors = wakatime_data["editors"][:1]
-    filtered_languages = [
-        language for language in wakatime_data["languages"] if language["hours"]
-    ]
-    if not filtered_languages:
-        filtered_languages = wakatime_data["languages"][:1]
 
     template = env.get_template("README.md.jinja")
     rendered_text = template.render(
         join_date=join_date.strftime("%d %B %Y"),
         contributed_repos=len(contributed_repos),
         commit_count=commit_count,
-        wakatime=wakatime_data,
-        waka_editors=format_wakatime_items(filtered_editors),
-        waka_languages=format_wakatime_items(filtered_languages),
     )
     print("  Writing README.md")
     with open(PROJ_ROOT / "README.md", "w", encoding="utf-8") as f:
